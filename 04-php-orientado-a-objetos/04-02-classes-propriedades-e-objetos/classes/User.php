@@ -1,0 +1,62 @@
+<?php
+namespace classes;
+
+class User
+{
+    private $FirstName;
+    private $LastName;
+    private $email;
+    
+    /**
+     * @return mixed
+     */
+    public function getFirstName()
+    {
+        return $this->FirstName;
+    }
+    
+    /**
+     * @param mixed $FirstName
+     */
+    public function setFirstName($FirstName)
+    {
+        $this->FirstName = $FirstName;
+    }
+    
+    /**
+     * @return mixed
+     */
+    public function getLastName()
+    {
+        return $this->LastName;
+    }
+
+    /**
+     * @param mixed $LastName
+     */
+    public function setLastName($LastName)
+    {
+        $this->LastName = $LastName;
+    }
+    
+    /**
+     * @return mixed
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+    
+    /**
+     * @param mixed $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+    
+ 
+}
+
+
+

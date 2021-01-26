@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47da4316-80c6-44d3-b36f-84fe6eed6e81" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/04-04-carregamento-automatico/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-04-carregamento-automatico\composer.phar" interpreterId="ce5cde14-aa3e-43d7-87ac-1caecbd6465e" />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="c install " />
+      <command text="php composer.phar install" />
+      <command text="c install " />
+    </commandsHistory>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/04-04-carregamento-automatico/composer.json" />
+        <option value="$PROJECT_DIR$/04-05-interpretacao-e-operacoes-pt1/index.php" />
+        <option value="$PROJECT_DIR$/04-04-carregamento-automatico/index.php" />
+        <option value="$PROJECT_DIR$/04-05-interpretacao-e-operacoes-pt1/source/intepretation/User.php" />
+        <option value="$PROJECT_DIR$/04-06-interpretacao-e-operacoes-pt2/source/intepretation/Product.php" />
+        <option value="$PROJECT_DIR$/04-06-interpretacao-e-operacoes-pt2/index.php" />
+        <option value="$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/Address.php" />
+        <option value="$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/Product.php" />
+        <option value="$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/User.php" />
+        <option value="$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/Company.php" />
+        <option value="$PROJECT_DIR$/04-07-relacionamento-entre-objetos/index.php" />
+        <option value="$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/Address.php" />
+        <option value="$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Event/EvenLive.php" />
+        <option value="$PROJECT_DIR$/04-08-heranca-e-polimorfismo/index.php" />
+        <option value="$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Event/Event.php" />
+        <option value="$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Event/EventOnline.php" />
+        <option value="$PROJECT_DIR$/04-09-membros-de-uma-classe/source/Members/Config.php" />
+        <option value="$PROJECT_DIR$/04-09-membros-de-uma-classe/source/Members/Trigger.php" />
+        <option value="$PROJECT_DIR$/04-09-membros-de-uma-classe/index.php" />
+        <option value="$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/App/Trigger.php" />
+        <option value="$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/App/User.php" />
+        <option value="$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/Bank/Account.php" />
+        <option value="$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/Bank/AccountSaving.php" />
+        <option value="$PROJECT_DIR$/04-10-fundamentos-de-abstracao/index.php" />
+        <option value="$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/Bank/AccountCurrent.php" />
+        <option value="$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/UserErrorInterface.php" />
+        <option value="$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/UserAdmin.php" />
+        <option value="$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/UserInterface.php" />
+        <option value="$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/User.php" />
+        <option value="$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/Login.php" />
+        <option value="$PROJECT_DIR$/04-11-contratos-com-interfaces/index.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/User.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/Address.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/Register.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/UserTrait.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/AddressTrait.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/Cart.php" />
+        <option value="$PROJECT_DIR$/04-12-comportamentos-com-traits/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/04-04-carregamento-automatico/vendor/composer" />
+      <path value="$PROJECT_DIR$/04-04-carregamento-automatico/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05-banco-de-dados-com-pdo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-10-fundamentos-de-abstracao\source\App" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-08-heranca-e-polimorfismo\source\inheritance" />
+      <recent name="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-04-carregamento-automatico" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47da4316-80c6-44d3-b36f-84fe6eed6e81" name="Default Changelist" comment="" />
+      <created>1608609343155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608609343155</updated>
+      <workItem from="1608609344608" duration="297000" />
+      <workItem from="1608670576440" duration="3306000" />
+      <workItem from="1608673942583" duration="1637000" />
+      <workItem from="1608757661339" duration="4366000" />
+      <workItem from="1609010863048" duration="96000" />
+      <workItem from="1609011405029" duration="4587000" />
+      <workItem from="1609101292833" duration="6537000" />
+      <workItem from="1609114627857" duration="1779000" />
+      <workItem from="1609198151655" duration="5899000" />
+      <workItem from="1609276376152" duration="1226000" />
+      <workItem from="1609365856775" duration="6215000" />
+      <workItem from="1609620575973" duration="5404000" />
+      <workItem from="1609809084953" duration="295000" />
+      <workItem from="1609872865708" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41687000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30332828" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="phar://$PROJECT_DIR$/04-04-carregamento-automatico/composer.phar/vendor/autoload.php" />
+    <entry file="phar://$PROJECT_DIR$/04-04-carregamento-automatico/composer.phar/src/Composer/Console/Application.php" />
+    <entry file="file://$PROJECT_DIR$/04-04-carregamento-automatico/source/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-04-carregamento-automatico/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-04-carregamento-automatico/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-05-interpretacao-e-operacoes-pt1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="47" column="21" selection-start-line="47" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-06-interpretacao-e-operacoes-pt2/source/intepretation/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-06-interpretacao-e-operacoes-pt2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="82" selection-start-line="82" selection-end-line="82" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Event/EventOnline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Event/EventLive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-08-heranca-e-polimorfismo/source/inheritance/Event/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-08-heranca-e-polimorfismo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="63" column="3" selection-start-line="63" selection-end-line="63" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-07-relacionamento-entre-objetos/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="70" selection-start-line="70" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-07-relacionamento-entre-objetos/source/Related/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-05-interpretacao-e-operacoes-pt1/source/intepretation/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-09-membros-de-uma-classe/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="75" column="71" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-09-membros-de-uma-classe/source/Members/Trigger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-09-membros-de-uma-classe/source/Members/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/App/Trigger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/App/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/Bank/AccountCurrent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#33#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/Bank/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding>
+            <element signature="e#31#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-10-fundamentos-de-abstracao/source/Bank/AccountSaving.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#33#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-10-fundamentos-de-abstracao/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/UserInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/UserErrorInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-11-contratos-com-interfaces/source/Contracts/UserAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-11-contratos-com-interfaces/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/UserTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/AddressTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/source/Traits/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-12-comportamentos-com-traits/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
