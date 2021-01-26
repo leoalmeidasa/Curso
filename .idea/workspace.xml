@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5658b168-8cd5-44f7-a62b-7eeedabdbd22" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <phar pharPath="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-04-carregamento-automatico\composer.phar" interpreterId="bb729077-a0e0-40f1-ad6a-740c52292616" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fullstackphp@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fullstackphp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fullstackphp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fullstackphp: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-09-seguranca-e-gestao-de-senhas/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1403">
+              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Helpers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>allow_url_fopen</find>
+      <find>max_execution_time</find>
+      <find>max_file_uploads</find>
+      <find>xampp</find>
+      <find>opcache</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-04-consultas-com-query-e-exec/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Database/Entity/UserEntity.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-05-explorando-estilos-de-busca/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-06-desmistificando-transacoes/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-07-pdostatements-e-bind-modes/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-08-regra-de-negocio-e-modelo/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.09-metodos-de-busca-e-leitura/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.10-model-bootstrap-e-cadastro/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.11-carregando-e-atualizando/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.12-removendo-registro-ativo/index.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Models/UserModel.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Models/Model.php" />
+        <option value="$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Database/Connect.php" />
+        <option value="$PROJECT_DIR$/../../conf/php-7.3.ini" />
+        <option value="$PROJECT_DIR$/../../php/php.ini" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-02-configuracoes-do-php/index.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Models/User.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Connect.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-03-configuracoes-do-projeto/index.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-04-acesso-e-controle-de-sessoes/index.php" />
+        <option value="$PROJECT_DIR$/fullstackphp/fsphp.css" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Message.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Session.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-05-uma-unica-interface-de-erros/index.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/autoload.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-06-camada-de-manipulacao-pt1/index.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-07-camada-de-manipulacao-pt2/index.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-08-camada-de-manipulacao-pt3/index.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Model.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Config.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Helpers.php" />
+        <option value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-09-seguranca-e-gestao-de-senhas/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="C:/php/pear" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
+              <item name="06-seguranca-e-boas-praticas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
+              <item name="06-seguranca-e-boas-praticas" type="462c0819:PsiDirectoryNode" />
+              <item name="06-09-seguranca-e-gestao-de-senhas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
+              <item name="fullstackphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\fsphp\06-seguranca-e-boas-praticas\Source" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\fsphp\06-seguranca-e-boas-praticas\Source\Models" />
+      <recent name="C:\Program Files\Ampps\www\fsphp\06-seguranca-e-boas-praticas\Source\Core" />
+      <recent name="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-04-carregamento-automatico" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5658b168-8cd5-44f7-a62b-7eeedabdbd22" name="Default Changelist" comment="" />
+      <created>1608608974857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608608974857</updated>
+      <workItem from="1608608978965" duration="240000" />
+      <workItem from="1608609254447" duration="74000" />
+      <workItem from="1610223758679" duration="2871000" />
+      <workItem from="1610412698928" duration="5689000" />
+      <workItem from="1610589153471" duration="5620000" />
+      <workItem from="1610672589762" duration="2857000" />
+      <workItem from="1610746370880" duration="5055000" />
+      <workItem from="1610754152781" duration="590000" />
+      <workItem from="1611109159633" duration="4778000" />
+      <workItem from="1611147794279" duration="5963000" />
+      <workItem from="1611334752258" duration="4913000" />
+      <workItem from="1611508919248" duration="4986000" />
+      <workItem from="1611536413928" duration="3415000" />
+      <workItem from="1611610279781" duration="4881000" />
+      <workItem from="1611628287126" duration="3878000" />
+      <workItem from="1611661605464" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56404000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Database" order="3" weight="0.3296131" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ce31e55-fe1d-4ef3-b6d7-62831b4f70d9/console.sql" />
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Database/Entity/UserEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-05-explorando-estilos-de-busca/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-06-desmistificando-transacoes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-08-regra-de-negocio-e-modelo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-07-pdostatements-e-bind-modes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1163">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.09-metodos-de-busca-e-leitura/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/DataBase.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="160" column="38" lean-forward="true" selection-start-line="110" selection-end-line="161" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ce31e55-fe1d-4ef3-b6d7-62831b4f70d9/schema/fullstackphp/table/users_address">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a30a3fc8-69a4-43ac-8317-50746dbecd93">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1b63f970-2734-4129-923d-9c0b930aa59a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.10-model-bootstrap-e-cadastro/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ce31e55-fe1d-4ef3-b6d7-62831b4f70d9/schema/fullstackphp/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a30a3fc8-69a4-43ac-8317-50746dbecd93">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-04-consultas-com-query-e-exec/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.11-carregando-e-atualizando/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05-03-erros-execucao-e-conexao/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Database/Connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Models/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3072">
+          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/source/Models/Model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-banco-de-dados-com-pdo/05.12-removendo-registro-ativo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="34" column="1" selection-start-line="34" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../conf/php-7.3.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="792" column="21" lean-forward="true" selection-start-line="792" selection-start-column="21" selection-end-line="792" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="1778" column="9" selection-start-line="1778" selection-start-column="9" selection-end-line="1778" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-02-configuracoes-do-php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="114" column="7" selection-start-line="114" selection-end-line="114" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-03-configuracoes-do-projeto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-04-acesso-e-controle-de-sessoes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-php-orientado-a-objetos/04-05-interpretacao-e-operacoes-pt1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-manipulacao-e-tratamento/03-05-manipulacao-de-datas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-manipulacao-e-tratamento/03-02-funcoes-para-strings/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-iniciando-do-zero-com-php/02-03-comandos-de-saida/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1789" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullstackphp/fsphp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-05-uma-unica-interface-de-erros/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-06-camada-de-manipulacao-pt1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-07-camada-de-manipulacao-pt2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-08-camada-de-manipulacao-pt3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Core/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-09-seguranca-e-gestao-de-senhas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
