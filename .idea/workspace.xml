@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5658b168-8cd5-44f7-a62b-7eeedabdbd22" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5658b168-8cd5-44f7-a62b-7eeedabdbd22" name="Default Changelist" comment="Day 04/02/21" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/07-recursos-e-componentes/composer.json</pharConfigPath>
     <execution>
-      <phar pharPath="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-04-carregamento-automatico\composer.phar" interpreterId="bb729077-a0e0-40f1-ad6a-740c52292616" />
+      <phar pharPath="C:\Program Files\Ampps\www\fsphp\07-recursos-e-componentes\composer.phar" interpreterId="bb729077-a0e0-40f1-ad6a-740c52292616" />
     </execution>
   </component>
   <component name="DatabaseView">
@@ -43,36 +43,13 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-09-seguranca-e-gestao-de-senhas/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1403">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source/Support/Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -82,6 +59,10 @@
       <find>xampp</find>
       <find>opcache</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="https://github.com/leoalmeidasa/Curso.git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,80 +104,69 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="C:/php/pear" />
+      <path value="$PROJECT_DIR$/../../../../php/pear" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/composer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/league/plates" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/uploader" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/rosell-dk/webp-convert" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/rosell-dk/image-mime-type-guesser" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/cropper" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/optimizer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/paginator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectId" id="1niRt1tPFOQf5S1panEI8g0ZK1j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
-              <item name="06-seguranca-e-boas-praticas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
-              <item name="06-seguranca-e-boas-praticas" type="462c0819:PsiDirectoryNode" />
-              <item name="06-09-seguranca-e-gestao-de-senhas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsphp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsphp" type="462c0819:PsiDirectoryNode" />
-              <item name="fullstackphp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-seguranca-e-boas-praticas/Source" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07-recursos-e-componentes/storage/uploads/images/2021/02" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\fsphp\07-recursos-e-componentes\storage\uploads\images\2021\02" />
       <recent name="C:\Program Files\Ampps\www\fsphp\06-seguranca-e-boas-praticas\Source" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\fsphp\07-recursos-e-componentes\storage\uploads\images\2021\02" />
+      <recent name="C:\Program Files\Ampps\www\fsphp\images" />
+      <recent name="C:\Program Files\Ampps\www\fsphp\07-recursos-e-componentes" />
+      <recent name="C:\Program Files\Ampps\www\fsphp\00-fullstack-php-modules" />
       <recent name="C:\Program Files\Ampps\www\fsphp\06-seguranca-e-boas-praticas\Source\Models" />
-      <recent name="C:\Program Files\Ampps\www\fsphp\06-seguranca-e-boas-praticas\Source\Core" />
-      <recent name="C:\Program Files\Ampps\www\fsphp\04-php-orientado-a-objetos\04-04-carregamento-automatico" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -222,16 +192,29 @@
       <workItem from="1611536413928" duration="3415000" />
       <workItem from="1611610279781" duration="4881000" />
       <workItem from="1611628287126" duration="3878000" />
-      <workItem from="1611661605464" duration="594000" />
+      <workItem from="1611661605464" duration="1604000" />
+      <workItem from="1611666959773" duration="594000" />
+      <workItem from="1611871138826" duration="8615000" />
+      <workItem from="1611955559595" duration="3712000" />
+      <workItem from="1611972277145" duration="722000" />
+      <workItem from="1611973031923" duration="9253000" />
+      <workItem from="1612206803595" duration="79000" />
+      <workItem from="1612207007254" duration="9201000" />
+      <workItem from="1612273992307" duration="4833000" />
+      <workItem from="1612361075619" duration="4580000" />
+      <workItem from="1612375867251" duration="5362000" />
+      <workItem from="1612406843657" duration="3335000" />
+      <workItem from="1612462021536" duration="9947000" />
+      <workItem from="1612478715100" duration="35000" />
+      <workItem from="1612478925198" duration="1099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56404000" />
+    <option name="totallyTimeSpent" value="58008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -257,7 +240,15 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 04/02/21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 04/02/21" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ce31e55-fe1d-4ef3-b6d7-62831b4f70d9/console.sql" />
@@ -534,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06-seguranca-e-boas-praticas/06-09-seguranca-e-gestao-de-senhas/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
+        <state relative-caret-position="515">
           <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
         </state>
       </provider>

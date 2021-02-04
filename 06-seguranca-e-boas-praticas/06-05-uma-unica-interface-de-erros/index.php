@@ -12,7 +12,7 @@ fullStackPHPClassSession("message class", __LINE__);
 $message = new \Source\Core\Message();
 $array = [$message, get_class_methods($message)];
 
-echo "<pre>",print_r($array, true),"</pre>";
+echo "<pre>", print_r($array, true), "</pre>";
 /*
  * [ message types ] Métodos para cada tipo de mensagem
  */
@@ -26,7 +26,7 @@ $array1 = [
     $message->render()
 ];
 
-echo "<pre>",print_r($array1, true),"</pre>";
+echo "<pre>", print_r($array1, true), "</pre>";
 
 echo $message->info("Essa é uma mensagem renderizada !");
 echo $message->success("Essa é uma mensagem renderizada !");
@@ -62,4 +62,4 @@ $array3 = [
     $session->all()
 ];
 
-echo "<pre>",print_r($array3, true),"</pre>";
+echo "<pre>", print_r($array3, true), "</pre>";

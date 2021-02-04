@@ -12,7 +12,7 @@
  * @param string $email
  * @return mixed
  */
-function is_email (string $email)
+function is_email(string $email)
 {
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
@@ -21,8 +21,11 @@ function is_email (string $email)
  * @param string $passwd
  * @return bool
  */
-function is_passwd (string $passwd)
+function is_passwd(string $passwd)
 {
+    if (password_get_info($passwd)['algo']) {
+        return true;
+    }
     return (mb_strlen($passwd) >= CONF_PASSWD_MIN_LEN && mb_strlen($passwd) <= CONF_PASSWD_MAX_LEN ? true : false);
 }
 
@@ -30,7 +33,7 @@ function is_passwd (string $passwd)
  * @param string $password
  * @return bool|string
  */
-function passwd (string $password)
+function passwd(string $password)
 {
     return password_hash($password, CONF_PASSWD_ALGO, CONF_PASSWD_OPTION);
 }
@@ -40,7 +43,7 @@ function passwd (string $password)
  * @param string $hash
  * @return bool
  */
-function passwd_verify (string $password, string $hash)
+function passwd_verify(string $password, string $hash)
 {
     return password_verify($password, $hash);
 }
@@ -49,11 +52,24 @@ function passwd_verify (string $password, string $hash)
  * @param string $hash
  * @return bool
  */
-function passwd_rehash (string $hash)
+function passwd_rehash(string $hash)
 {
     return password_needs_rehash($hash, CONF_PASSWD_ALGO, CONF_PASSWD_OPTION);
 }
 
+function csrf_input()
+{
+    session()->csrf();
+    return "<input type='hidden' name='csrf' value='" . (session()->csrf_token ?? "") . "'/>";
+}
+
+function csrf_verify($request)
+{
+    if (empty(session()->csrf_token) || empty($request['csrf']) || $request['csrf'] != session()->csrf_token) {
+        return false;
+    }
+    return true;
+}
 
 /**
  * ##################
@@ -65,13 +81,13 @@ function passwd_rehash (string $hash)
 /**
  * @param string $string
  */
-function str_slug (string $string)
+function str_slug(string $string)
 {
-    $string = filter_var(mb_strtolower($string) , FILTER_SANITIZE_STRIPPED);
+    $string = filter_var(mb_strtolower($string), FILTER_SANITIZE_STRIPPED);
     $formats = 'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜüÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûýýþÿRr"!@#$%&*()_-+={[}]/?;:.,\\\'<>°ºª';
     $replace = 'aaaaaaaceeeeiiiidnoooooouuuuuybsaaaaaaaceeeeiiiidnoooooouuuyybyRr                                 ';
 
-    $slug = str_replace(["-----","----","---","--"], "-",
+    $slug = str_replace(["-----", "----", "---", "--"], "-",
         str_replace(" ", "-", trim(strtr(utf8_decode($string), utf8_decode($formats), $replace))));
     return $slug;
 }
@@ -84,7 +100,7 @@ function str_studly_case(string $string)
 {
     $string = str_slug($string);
     $studlyCase = str_replace(" ", "",
-    mb_convert_case(str_replace("-", " ", $string), MB_CASE_TITLE));
+        mb_convert_case(str_replace("-", " ", $string), MB_CASE_TITLE));
 
     return $studlyCase;
 }
@@ -102,7 +118,7 @@ function str_camel_case(string $string)
  * @param string $string
  * @return false|mixed|string|string[]|null
  */
-function str_title (string $string)
+function str_title(string $string)
 {
     return mb_convert_case(filter_var($string, FILTER_SANITIZE_SPECIAL_CHARS), MB_CASE_TITLE);
 }
@@ -116,10 +132,10 @@ function str_title (string $string)
 function str_limit_words(string $string, int $limit, string $pointer = "...")
 {
     $string = trim(filter_var($string, FILTER_SANITIZE_SPECIAL_CHARS));
-    $arrWords = explode( " ", $string);
+    $arrWords = explode(" ", $string);
     $numWords = count($arrWords);
 
-    if($numWords < $limit) {
+    if ($numWords < $limit) {
         return $string;
     }
 
@@ -164,9 +180,9 @@ function url(string $path)
 /**
  * @param string $url
  */
-function redirect (string $url)
+function redirect(string $url)
 {
-    header( "HTTP/1.1 302 Redirect");
+    header("HTTP/1.1 302 Redirect");
 
     if (filter_var($url, FILTER_VALIDATE_URL)) {
         header("Location: {$url}");
@@ -174,7 +190,7 @@ function redirect (string $url)
     }
 
     $location = url($url);
-    header( "Location: {$location}");
+    header("Location: {$location}");
     exit;
 }
 

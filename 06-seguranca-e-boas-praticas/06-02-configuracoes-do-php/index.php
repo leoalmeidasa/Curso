@@ -16,7 +16,7 @@ $array2 = [
     "allow_url_include" => ini_get('allow_url_include')
 ];
 
-echo "<pre>",print_r($array2, true),"</pre>";
+echo "<pre>", print_r($array2, true), "</pre>";
 
 /*
  * [ DoS (Denial of Service) ] Configurações que melhoram performance e ajudam a evitar
@@ -43,8 +43,8 @@ $array4 = [
     "max_input_time" => ini_get("max_input_time")
 ];
 
-echo "<pre>",print_r($array3, true),"</pre>";
-echo "<pre>",print_r($array4, true),"</pre>";
+echo "<pre>", print_r($array3, true), "</pre>";
+echo "<pre>", print_r($array4, true), "</pre>";
 
 
 /*
@@ -68,7 +68,7 @@ $array = [
     "max_file_uploads" => ini_get("max_file_uploads") //padrão 20
 ];
 
-echo "<pre>",print_r($array, true),"</pre>";
+echo "<pre>", print_r($array, true), "</pre>";
 
 
 /*
@@ -80,12 +80,12 @@ echo "<pre>",print_r($array, true),"</pre>";
  */
 fullStackPHPClassSession("buffering", __LINE__);
 
-$array5 =[
+$array5 = [
     "output_buffering" => ini_get("output_buffering"),
     "implicit_flush" => ini_get("implicit_flush")
 ];
 
-echo "<pre>",print_r($array5, true),"</pre>";
+echo "<pre>", print_r($array5, true), "</pre>";
 /*
  * [ realpath_cache_size ] O PHP consegue manter um cache de arquivos usados em sua
  * aplicação para evitar reprocessamento e com isso melhora a performance.
@@ -103,9 +103,9 @@ $array7 = [
     "realpath_cache_ttl" => ini_get("realpath_cache_ttl")
 ];
 
-echo "<pre>",print_r($array6, true),"</pre>";
+echo "<pre>", print_r($array6, true), "</pre>";
 
-echo "<pre>",print_r($array7, true),"</pre>";
+echo "<pre>", print_r($array7, true), "</pre>";
 /*
  * [ OPcache ] Um cache bytecode de scripts PHP pré-compilados em memória compartilhada
  * que elimina a necessidade do PHP carregar e analisar scripts em cada requisição.
@@ -117,4 +117,4 @@ $array8 = [
     opcache_get_status()["scripts"]
 ];
 
-echo "<pre>",print_r($array8, true),"</pre>";
+echo "<pre>", print_r($array8, true), "</pre>";

@@ -18,8 +18,16 @@ abstract class Model
     /** @var \PDOException|null */
     protected $fail;
 
-    /** @var null|object */
+    /** @var Message|null */
     protected $message;
+
+    /**
+     * Model constructor.
+     */
+    public function __construct()
+    {
+        $this->message = new Message();
+    }
 
     /**
      * @param $name
@@ -69,7 +77,7 @@ abstract class Model
     }
 
     /**
-     * @return object|null
+     * @return Message|null
      */
     public function message()
     {
@@ -110,8 +118,11 @@ abstract class Model
             if ($params) {
                 parse_str($params, $params);
                 foreach ($params as $key => $value) {
-                    $type = (is_numeric($value) ? \PDO::PARAM_INT : \PDO::PARAM_STR);
-                    $stmt->bindValue(":{$key}", $value, $type);
+                    if ($key == 'limit' || $key == 'offset') {
+                        $stmt->bindValue(":{$key}", $value, \PDO::PARAM_INT);
+                    } else {
+                        $stmt->bindValue(":{$key}", $value, \PDO::PARAM_INT);
+                    }
                 }
             }
 
@@ -121,7 +132,6 @@ abstract class Model
             $this->fail = $exception;
             return null;
         }
-
     }
 
     /**
@@ -197,6 +207,17 @@ abstract class Model
         }
 
         return $filter;
+    }
+
+    protected function required()
+    {
+        $data = (array)$this->data();
+        foreach (static::$required as $field) {
+            if (empty($data[$field])) {
+                return false;
+            }
+        }
+        return true;
     }
 
 }

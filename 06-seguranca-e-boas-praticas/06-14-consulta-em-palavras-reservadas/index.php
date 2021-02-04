@@ -9,3 +9,16 @@ require __DIR__ . "/../source/autoload.php";
  */
 fullStackPHPClassSession("query params", __LINE__);
 
+$user = (new \Source\Models\User())->findById(1);
+$user->document = 22.22;
+$user->save();
+
+echo "<pre>",print_r($user, true),"</pre>";
+
+$user1 = (new \Source\Models\User())->find("document = :d", "d=22.22");
+
+echo "<pre>",print_r($user1, true),"</pre>";
+
+$list = (new \Source\Models\User())->all(2);
+
+echo "<pre>",print_r($list, true),"</pre>";

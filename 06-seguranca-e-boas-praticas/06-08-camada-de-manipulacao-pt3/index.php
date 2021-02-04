@@ -15,7 +15,7 @@ $email = "cursos@upinside.com.br";
 
 if (!is_email($email)) {
     echo $message->error("Email");
-}else {
+} else {
     echo $message->success("Email");
 }
 
@@ -23,7 +23,7 @@ $passwd = "12345678";
 
 if (!is_passwd($passwd)) {
     echo $message->error("Senha");
-}else {
+} else {
     echo $message->success("Senha");
 }
 
@@ -33,8 +33,8 @@ if (!is_passwd($passwd)) {
 fullStackPHPClassSession("navigation", __LINE__);
 
 var_dump([
-    url( "/blog/titulo-do-artigo"),
-    url( "blog/titulo-do-artigo")
+    url("/blog/titulo-do-artigo"),
+    url("blog/titulo-do-artigo")
 ]);
 
 if (empty($_GET)) {
@@ -46,15 +46,15 @@ if (empty($_GET)) {
  */
 fullStackPHPClassSession("triggers", __LINE__);
 
-$array =  [
+$array = [
     user()->load(1)
 ];
 
-echo "<pre>",print_r($array, true),"</pre>";
+echo "<pre>", print_r($array, true), "</pre>";
 
 echo message()->error("Esse é um erro");
 echo message()->warning("Esse é um aviso");
 
-session()->set("user" , user()->load(1));
+session()->set("user", user()->load(1));
 
-echo "<pre>",print_r(session()->all(), true),"</pre>";
+echo "<pre>", print_r(session()->all(), true), "</pre>";

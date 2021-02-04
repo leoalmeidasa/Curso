@@ -29,4 +29,4 @@ $array = [
     $session->all()
 ];
 
-echo "<pre>",print_r($array, true),"</pre>";
+echo "<pre>", print_r($array, true), "</pre>";
