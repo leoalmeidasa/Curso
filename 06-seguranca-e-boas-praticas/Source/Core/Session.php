@@ -14,7 +14,7 @@ class Session
      */
     public function __construct()
     {
-        if(!session_id()) {
+        if (!session_id()) {
             session_save_path(CONF_SES_PATH);
             session_start();
         }
@@ -26,7 +26,7 @@ class Session
      */
     public function __get($name)
     {
-        if(!empty($_SESSION[$name])) {
+        if (!empty($_SESSION[$name])) {
             return $_SESSION[$name];
         }
         return null;
@@ -37,7 +37,7 @@ class Session
      */
     public function __isset($name)
     {
-        $this->has($name);
+        return $this->has($name);
     }
 
     /**
@@ -101,11 +101,19 @@ class Session
      */
     public function flash()
     {
-        if($this->has("flash")) {
+        if ($this->has("flash")) {
             $flash = $this->flash();
             $this->unset("flash");
             return $flash;
         }
         return null;
+    }
+
+    /**
+     * CSRF TOKEN
+     */
+    public function csrf()
+    {
+        $_SESSION['csrf_token'] = base64_encode(random_bytes(20));
     }
 }

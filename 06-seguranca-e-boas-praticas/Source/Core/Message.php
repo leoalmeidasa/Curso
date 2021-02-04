@@ -30,28 +30,28 @@ class Message
         return $this->type;
     }
 
-    public function info( $message)
+    public function info($message)
     {
         $this->type = CONF_MESSAGE_INFO;
         $this->text = $this->filter($message);
         return $this;
     }
 
-    public function success( $message)
+    public function success($message)
     {
         $this->type = CONF_MESSAGE_SUCCESS;
         $this->text = $this->filter($message);
         return $this;
     }
 
-    public function warning( $message)
+    public function warning($message)
     {
         $this->type = CONF_MESSAGE_WARNING;
         $this->text = $this->filter($message);
         return $this;
     }
 
-    public function error( $message)
+    public function error($message)
     {
         $this->type = CONF_MESSAGE_ERROR;
         $this->text = $this->filter($message);
@@ -60,7 +60,7 @@ class Message
 
     public function render()
     {
-        return "<div class='". CONF_MESSAGE_CLASS . " {$this->getType()}'>{$this->getText()}</div>";
+        return "<div class='" . CONF_MESSAGE_CLASS . " {$this->getType()}'>{$this->getText()}</div>";
     }
 
     public function json()
@@ -73,7 +73,7 @@ class Message
         (new Session())->set("flash", $this);
     }
 
-    private function filter( $message)
+    private function filter($message)
     {
         return filter_var($message, FILTER_SANITIZE_SPECIAL_CHARS);
     }

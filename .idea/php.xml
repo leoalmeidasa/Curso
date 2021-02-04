@@ -2,7 +2,24 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="C:/php/pear" />
+      <path value="$PROJECT_DIR$/../../../../php/pear" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/composer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/league/plates" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/uploader" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/rosell-dk/webp-convert" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/rosell-dk/image-mime-type-guesser" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/cropper" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/optimizer" />
+      <path value="$PROJECT_DIR$/07-recursos-e-componentes/vendor/coffeecode/paginator" />
     </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/07-recursos-e-componentes/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
