@@ -1,0 +1,7 @@
+<?php
+namespace \source\loading\company;
+
+class Company
+{
+}
+

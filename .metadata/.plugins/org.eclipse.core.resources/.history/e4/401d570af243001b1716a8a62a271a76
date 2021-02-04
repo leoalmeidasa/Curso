@@ -1,0 +1,7 @@
+<?php
+namespace \source\loading;
+
+class Address
+{
+}
+

@@ -1,0 +1,7 @@
+<?php
+namespace source\Qualifield;
+
+class User
+{
+}
+

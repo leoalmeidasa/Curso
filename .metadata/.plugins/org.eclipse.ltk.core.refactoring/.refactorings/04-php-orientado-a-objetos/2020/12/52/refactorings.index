@@ -1,0 +1,5 @@
+1608564554110	Move 'Template.php' to 'Web'
+1608565368656	Move 'App' to 'classes'
+1608565370335	Move 'Web' to 'classes'
+1608565545111	Rename resource 'qualified'
+1608565559286	Rename resource 'qualifield'
